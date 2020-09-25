@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 0)
+    (drawings 21)
     (tracks 0)
     (zones 0)
     (modules 57)
@@ -283,8 +283,8 @@
       (net 15 "Net-(D31-Pad2)"))
   )
 
-  (module kbd:ProMicro_v2 (layer F.Cu) (tedit 5B7FE439) (tstamp 5F6D4CE4)
-    (at 41 34.5)
+  (module kbd:ProMicro_v2 (layer F.Cu) (tedit 5B7FE439) (tstamp 5F6E8BFA)
+    (at 41 37.318)
     (path /5F6C36C2)
     (fp_text reference U1 (at 0 -5 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -622,7 +622,7 @@
   )
 
   (module kbd:ResetSW (layer F.Cu) (tedit 5B9559E6) (tstamp 5F6E1EA8)
-    (at 39.75 57.5)
+    (at 39.75 62)
     (path /5F70ACF0)
     (fp_text reference SW1 (at 0 2.55) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -4145,5 +4145,27 @@
       (rotate (xyz 0 0 180))
     )
   )
+
+  (gr_line (start 29 98.5) (end 29 90) (layer Edge.Cuts) (width 0.05) (tstamp 5F6E8DD0))
+  (gr_line (start 47 130) (end 29 98.5) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 91.5 120.5) (end 47 130) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 29 18) (end 30 18) (layer Edge.Cuts) (width 0.05) (tstamp 5F6E8DC8))
+  (gr_line (start 29 90) (end 29 18) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 54 18) (end 30 18) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 74.5 18) (end 54 18) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 74.5 15.5) (end 74.5 18) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 93.5 15.5) (end 74.5 15.5) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 93.5 13) (end 93.5 15.5) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 112.5 13) (end 93.5 13) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 112.5 15.5) (end 112.5 13) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 131.5 15.5) (end 112.5 15.5) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 131.5 18) (end 131.5 15.5) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 150.5 18) (end 131.5 18) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 180 18) (end 150.5 18) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 180 100) (end 180 18) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 179 100) (end 180 100) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 132.5 100) (end 179 100) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 120.5 126) (end 132.5 100) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 91.5 120.5) (end 120.5 126) (layer Edge.Cuts) (width 0.05))
 
 )
