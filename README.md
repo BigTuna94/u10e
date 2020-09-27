@@ -5,6 +5,9 @@ The μ10e, pronounced *Mutiny*, is another take on a DIY ergonomic ortholinear w
 ### Sample Layout
 ![u10eLayout](./u10e_layout.png)
 
+### Current PCB Design
+![u10ePCB](./u10e_pcb.png)
+
 ### Goals
 The initial inspiration for this board was a Crkbd with 1.5U modifiers, a number row, and Kailh Choc sockets. However, after seeing designs like the Lily58, I've decided it would be even better to support both Choc and MX sockets on the same pcb.
 
