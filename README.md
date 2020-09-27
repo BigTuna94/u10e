@@ -11,7 +11,7 @@ The initial inspiration for this board was a Crkbd with 1.5U modifiers, a number
 Although the first revision of this board will use a socketed Pro Micro footprint MCU per side, the overall goal of this project is something a little more sofisticated.
 
 ### Roadmap
-- [ ] Create initial schematic and pcb design using pro micro
+- [x] Create initial schematic and pcb design using pro micro
 - [ ] Remove Pro Micro footprint and add dedicated MCU
 - [ ] Add battery option
 - [ ] Add fully wireless capability (current idea is IR)
