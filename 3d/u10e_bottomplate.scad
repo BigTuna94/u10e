@@ -1,8 +1,10 @@
 bottom_thickness = 4;
 left_wall_thickness = 4;
 right_wall_thickness = 4;
-case_height = 12; // for kailh choc high profile
+//case_height = 12; // for kailh choc high profile
 // case_height = 15.5; // for cherry style high profile
+
+case_height= 9.5;
 
 module pcb_outline(ht) {
     linear_extrude(height=ht, center=true, convexity=1)
@@ -70,33 +72,26 @@ module shell_3d(th=0.1,N=4) {
  }
 }
 
-
-
-
-
-module casifyed() {
-
-    Wall = 2;   // Wall thickness
-    Box = 300;    // Box must be bigger than the object
-
-    difference() {
-        scaled_rounded_pcb();
-        translate([0,0,-Box/2]) cube(Box,center=true);
-        difference() {
-            translate([0,0,Box/2-0.001]) cube(Box,center=true);
-            minkowski() {
-                cube(2*Wall,center=true);  
-                difference() {
-                    translate([0,0,Box/2]) cube(Box,center=true);
-                    scaled_rounded_pcb();
-                }
-            }
-        }
-    }
-}
-
-
-
+//module casifyed() {
+//
+//    Wall = 2;   // Wall thickness
+//    Box = 300;    // Box must be bigger than the object
+//
+//    difference() {
+//        scaled_rounded_pcb();
+//        translate([0,0,-Box/2]) cube(Box,center=true);
+//        difference() {
+//            translate([0,0,Box/2-0.001]) cube(Box,center=true);
+//            minkowski() {
+//                cube(2*Wall,center=true);  
+//                difference() {
+//                    translate([0,0,Box/2]) cube(Box,center=true);
+//                    scaled_rounded_pcb();
+//                }
+//            }
+//        }
+//    }
+//}
 
 //difference() {
 ////    casifyed();
